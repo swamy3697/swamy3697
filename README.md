@@ -1,34 +1,150 @@
-<h1 align="center">Hi 👋, I'm swamy penupothula</h1>
-<h3 align="center">A passionate android developer from India</h3>
+# <div align="center">🚀 **SWAMY PENUPOTHULA** 🚀</div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=swamy3697&label=Profile%20views&color=0e75b6&style=flat" alt="swamy3697" /> </p>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Hi+there!+%F0%9F%91%8B+I'm+Swamy;Passionate+Android+Developer;From+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+</div>
 
-- 🔭 I’m currently working on **android project**
+<div align="center">
+  
+[![Profile Views](https://komarev.com/ghpvc/?username=swamy3697&label=Profile%20Views&color=blueviolet&style=for-the-badge)](https://github.com/swamy3697)
+[![GitHub followers](https://img.shields.io/github/followers/swamy3697?logo=github&style=for-the-badge&color=blue)](https://github.com/swamy3697)
+[![GitHub Stars](https://img.shields.io/github/stars/swamy3697?logo=github&style=for-the-badge&color=yellow)](https://github.com/swamy3697)
 
-- 🌱 I’m currently learning **java,android studio,python**
+</div>
 
-- 👯 I’m looking to collaborate on **android development**
+---
 
-- 🤝 I’m looking for help with **android studio**
+## <div align="center">🌟 **ABOUT ME** 🌟</div>
 
-- 💬 Ask me about **android studio, java programming**
+<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-- 📫 How to reach me **swamyp2002@gmail.com**
+```javascript
+const swamy = {
+    name: "Swamy Penupothula",
+    title: "Android Developer",
+    location: "India 🇮🇳",
+    currentFocus: "Android Development",
+    learning: ["Java", "Android Studio", "Python"],
+    collaboration: "Android Development Projects",
+    askMeAbout: ["Android Studio", "Java Programming", "Mobile Development"],
+    funFact: "I think I'm funny 😄",
+    email: "swamyp2002@gmail.com"
+};
+```
 
-- ⚡ Fun fact **I think i'm funny**
+<div align="center">
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/swamy-penupothula-341877219/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/swamy-penupothula-341877219/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/https://stackoverflow.com/users/14976001/umar-alish" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/14976001/umar-alish" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/https://www.hackerrank.com/22lecon504" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/22lecon504" height="30" width="40" /></a>
-</p>
+### 🔥 **CURRENT STATUS** 🔥
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+🔭 **Working on:** Android Projects  
+🌱 **Learning:** Java, Android Studio, Python  
+👯 **Looking to collaborate on:** Android Development  
+🤝 **Looking for help with:** Android Studio  
+💬 **Ask me about:** Android Studio, Java Programming  
+⚡ **Fun fact:** I think I'm funny!  
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=swamy3697&show_icons=true&locale=en&layout=compact" alt="swamy3697" /></p>
+</div>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=swamy3697&show_icons=true&locale=en" alt="swamy3697" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=swamy3697&" alt="swamy3697" /></p>
+## <div align="center">🛠️ **TECH ARSENAL** 🛠️</div>
+
+<div align="center">
+
+### 📱 **Mobile Development**
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+
+### 💻 **Programming Languages**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+### 🌐 **Web Technologies**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### 🗄️ **Databases**
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### 🎨 **Design & Tools**
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+
+### 🐧 **Operating System**
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+---
+
+## <div align="center">🌐 **CONNECT WITH ME** 🌐</div>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swamy-penupothula-341877219/)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/14976001/umar-alish)
+[![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/22lecon504)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swamyp2002@gmail.com)
+
+</div>
+
+---
+
+## <div align="center">📊 **GITHUB ANALYTICS** 📊</div>
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=swamy3697&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=swamy3697&theme=radical&hide_border=true" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=swamy3697&layout=compact&theme=radical&hide_border=true&langs_count=10" alt="Top Languages" />
+</div>
+
+---
+
+## <div align="center">🏆 **GITHUB TROPHIES** 🏆</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=swamy3697&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" />
+</div>
+
+---
+
+## <div align="center">⚡ **ACTIVITY GRAPH** ⚡</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=swamy3697&theme=react-dark&hide_border=true" alt="Activity Graph" />
+</div>
+
+---
+
+## <div align="center">💡 **RANDOM DEV QUOTE** 💡</div>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+</div>
+
+---
+
+<div align="center">
+
+### 🎯 **"Code is like humor. When you have to explain it, it's bad."** 🎯
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
+
+**Thanks for visiting my profile! Let's connect and build something amazing together! 🚀**
+
+<img src="https://komarev.com/ghpvc/?username=swamy3697&style=flat-square&color=blue" alt="Profile Views"/>
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer Wave" />
+</div>
